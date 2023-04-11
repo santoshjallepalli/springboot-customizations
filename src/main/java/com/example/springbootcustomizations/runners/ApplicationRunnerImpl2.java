@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class ApplicationRunnerImpl2 implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("ApplicationRunnerImpl2 ## arguments: ");
+        System.out.println("ApplicationRunnerImpl2 ### arguments: ");
         Arrays.stream(args.getSourceArgs()).forEach(System.out::println);
     }
 }
