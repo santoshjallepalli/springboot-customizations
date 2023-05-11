@@ -14,7 +14,7 @@ public class SpringbootCustomizationsApplication {
         SpringApplication.run(SpringbootCustomizationsApplication.class, args);
     }
 
-    @Bean
+   /* @Bean
     public CommandLineRunner commandLineRunner(LoggerApi logapi) {
         System.out.println("Command Line Runner");
         return args -> { logapi.generateLog("myCommandLog"); };
@@ -24,5 +24,5 @@ public class SpringbootCustomizationsApplication {
     public ApplicationRunner applicationRunner(LoggerApi logapi) {
         System.out.println("Application Runner");
         return args -> { logapi.generateLog("myApplicationLog"); };
-    }
+    }*/
 }
